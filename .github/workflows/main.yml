@@ -18,5 +18,10 @@ jobs:
         password: Admin@123
         protocol: ftp
         port: 2121 
-        local-dir: ./dist/
+        local-dir: ./
         server-dir: domains/125street.net/public_html/test/
+        exclude: 
+          - .git*
+          - .git*/*
+          - README.md
+          - exclude01/*
