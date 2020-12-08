@@ -19,4 +19,4 @@ jobs:
         protocol: ftp
         port: 2121 
         local-dir: ./dist/
-        server-dir: domains/125street.net/public_html/test
+        server-dir: /domains/125street.net/public_html/test
